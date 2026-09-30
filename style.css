@@ -1,10 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    background-color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #fc4c02;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+
+.logo-icon {
+    font-size: 27px;
+    transform: rotate(180deg);
+    display: inline-block;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
 body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
 .login-page {
     height: 100vh;
-    background: white center;
+    background:grey;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -4,7 +4,7 @@ body {
 }
 .signup {
     height: 100vh;
-    background: white center;
+    background: gray center;
     display: flex;
     flex-direction: column;
     justify-content: center;
