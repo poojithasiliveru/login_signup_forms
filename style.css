@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.login-page {
+    height: 100vh;
+    background: white center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-box {
+    width: 400px;
+    padding: 25px 30px;
+    background:black;
+    color: white;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 45px;
+    font-size: 30px;
+}
+.social-btn {
+    width: 100%;
+    height: 42px;
+    margin-bottom: 10px;
+    background: white;
+    border: 0;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.social-btn i {
+    float: left;
+    margin-left: 15px;
+    font-size: 20px;
+}
+.or {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 25px 0;
+}
+.or span {
+    flex: 1;
+    height: 1px;
+    background: gray;
+}
+.or p {
+    margin: 0;
+    font-weight: bold;
+}
+.login-box label {
+    font-size: 14px;
+    font-weight: bold;
+}
+.form-control {
+    height: 45px;
+    margin: 8px 0 12px;
+}
+.remember {
+    margin-bottom: 15px;
+}
+.remember input {
+    width: 20px;
+    height: 20px;
+    accent-color: orangered;
+}
+.remember label {
+    margin-left: 5px;
+}
+.login-btn {
+    width: 100%;
+    height: 48px;
+    background: #e94b05;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.create {
+    display: block;
+    margin-top: 25px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.terms {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 11px;
+    color: #aaa;
+}
+.terms a {
+    color: #168cff;
+}

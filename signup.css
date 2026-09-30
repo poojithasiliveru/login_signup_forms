@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+.signup {
+    height: 100vh;
+    background: white center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    width: 400px;
+    padding: 15px 30px;
+    background:black;
+    color: white;
+    text-align: center;
+}
+h1 {
+    font-size: 30px;
+    margin-bottom: 45px;
+}
+p {
+    font-weight: bold;
+}
+.social,
+.signup-btn {
+    width: 100%;
+    height: 45px;
+    margin: 5px 0;
+    border: 0;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.social {
+    background: white;
+    font-size: 16px;
+}
+.social i {
+    float: left;
+    margin-left: 15px;
+    font-size: 20px;
+}
+.or {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 25px 0;
+}
+.or span {
+    flex: 1;
+    height: 1px;
+    background: gray;
+}
+label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+}
+.form-control {
+    height: 45px;
+    margin: 8px 0 12px;
+}
+.signup-btn {
+    background: #e94b05;
+    color: white;
+}
+small {
+    display: block;
+    margin-top: 12px;
+}
+small a {
+    color: #168cff;
+}
+.login {
+    width: 400px;
+    padding: 20px;
+    background: black;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+.login a {
+    color: white;
+}
